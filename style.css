@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    --Light-Gray: hsl(204, 43%, 93%);
+}
+body{
+    font-size: 1rem;
+    background-color:var(--Light-Gray   );
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+
+.container .main-card{
+   
+
+}
+.container .main-card .big-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.container .main-card .big-card h2{
+    padding: 1.25rem;
+    padding-bottom: 0;
+    color: var(--Cyan);
+}
+.container .main-card .big-card h3{
+    padding: 0.625rem;
+    padding-left: 1.25rem;
+    padding-bottom: 0;
+    
+    color: var(--Bright-Yellow);
+}
+.container .main-card .big-card p{
+    color: var( --Grayish-Blue);
+    padding: 1.25rem;
+    width: 80ch;
+    line-height: 1.4;
+}
+
+.container .main-card .holder{
+    display: flex;
+}
+.container .main-card .holder .first-card{
+    padding: 1.25rem;
+    width: calc(100% / 2);
+    background-color: var(--Cyan);
+}
+.container .main-card .holder .first-card h2{
+    color: white;
+    padding: 1.25rem ;
+    font-size: 1rem;
+    padding-bottom: 0;
+}
+.container .main-card .holder .first-card h3{
+    color: white;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    padding-bottom:0 ;
+}
+
+.container .main-card .holder .first-card h3 span{
+    color:rgb(100%, 100%, 100%);
+    opacity: .5;
+    font-weight: 400;
+    font-size: 0.625rem;
+    
+    
+}
+.container .main-card .holder .first-card p{
+    padding: 1.25rem;
+    padding-top: 0.3125rem;
+    color: white;
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding-bottom: 0;
+}
+.container .main-card .holder .first-card a{
+    background-color: var(--Bright-Yellow);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25rem;
+    margin-bottom: -0.625rem;
+}
+.container .main-card .holder .second-card{
+    width: calc(100% / 2);
+    padding: 1.25rem;
+    background-color:hsl(179, 62%, 43% , 70%) ;
+}
+.container .main-card .holder .second-card h2{
+    color: white;
+    padding: 1.25rem;
+    padding-bottom: 0;
+
+}
+
+.container .main-card .holder .second-card p{
+    color:rgb(100%, 100%, 100%);
+    opacity: .5;
+    padding: 1.25rem;
+    width: 26ch;
+    padding-bottom: 0;
+}
+
+
+
